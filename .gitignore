@@ -1,0 +1,70 @@
+# =========================
+# Secrets / Local config
+# =========================
+.env
+.env.*
+*.keystore
+*.p12
+*.jks
+HELP.md
+
+# =========================
+# Build outputs / Binaries
+# =========================
+target/
+out/
+build/
+classes/
+# 保留 maven wrapper jar（必要檔）
+!.mvn/wrapper/maven-wrapper.jar
+# 若你的原始碼樹中，刻意要追蹤 src 下的 target/build，保留這兩條例外：
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# Logs / Crash dumps
+# =========================
+*.log
+logs/
+hs_err_pid*.log
+
+# =========================
+# IDE / Tooling
+# =========================
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# =========================
+# OS Junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# (Optional) Frontend
+# =========================
+# node_modules/

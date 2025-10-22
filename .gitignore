@@ -3,6 +3,7 @@
 # =========================
 .env
 .env.*
+application.properties
 *.keystore
 *.p12
 *.jks

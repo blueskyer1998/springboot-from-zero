@@ -3,5 +3,5 @@
 
 # 學習目標
 - 從零開始掌握 Spring Boot
-- 瞭解 JPA、REST API、Spring Security
+- 瞭解 REST API、Spring IoC、Spring MVC、Spring JDBC
 - 能獨立完成小型專案開發
